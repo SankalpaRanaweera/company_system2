@@ -67,6 +67,11 @@ export default function Third() {
   </tbody>
 </table>
 
+
+{/* const data=[a,b,c,d]
+const datas={a,bv} 
+
+data.map */}
             
             </div>
     );

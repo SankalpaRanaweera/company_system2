@@ -10,7 +10,7 @@ function First() {
 
     const handleSubmit = () => {
         axios.get('http://localhost:8070/router/get', {
-            params: { team, date }
+            params: { team, date } 
            
         })
         .then(response => {
@@ -48,7 +48,7 @@ function First() {
             <input type="text" class="form-control w-50 teamField" name="team" value={team} onChange={(e) => setTeam(e.target.value)} />
         </div>
     </div>
-    
+       
     <div class="row mb-3">
         <label class="col-sm-2 col-form-label title2">Date</label>
         <div class="col-sm-10">
