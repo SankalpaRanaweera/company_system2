@@ -23,21 +23,6 @@ function First() {
     };
 
     return (
-        // <div class="background">
-        //     <img src="crystal.png" alt="crystal"  />
-        //     <label class="form-label team">Team</label>
-        //     <div class="team">
-        //     <input type="text" class="form-control w-50 " name="team" value={team} onChange={(e) => setTeam(e.target.value)} /> <br/>
-        //     </div>
-        //     <label class="form-label date">Date</label>
-        //     <div class="date">
-        //          <input type="date"class="form-control w-50 " name="date" value={date} onChange={(e) => setDate(e.target.value)} /> <br/>
-        //     </div>
-         
-
-        //      <button type="button" class="btn btn-outline-light search"onClick={handleSubmit}>Search</button><br/>
-        //      <button type="button" class="btn btn-outline-light start"onClick={() => navigate('/Second')}>Start</button>
-        // </div>
 
         <div class="background">
     <img src="crystal.png" alt="crystal" style={{marginLeft:'-10px'}} />

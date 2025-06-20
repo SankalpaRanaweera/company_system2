@@ -68,12 +68,9 @@ export default function Third() {
 </table>
 
 
-{/* const data=[a,b,c,d]
-const datas={a,bv} 
 
-data.map */}
             
-            </div>
+   </div>
     );
 } 
             
